@@ -22,7 +22,7 @@
 
           <v-row class="mb-4">
             <v-col
-              v-for="({ icon, title}, i) in category"
+              v-for="({ icon, title, link}, i) in category"
               :key="i"
               cols="12"
               md="4"
@@ -30,6 +30,7 @@
               <v-card
                 class="py-12 px-4"
                 color="grey lighten-5"
+                @click="$router.push(link)"
               >
                 <v-theme-provider dark>
                   <div>
@@ -72,14 +73,17 @@ export default {
           {
             icon: 'mdi-grave-stone',
             title: 'Пам’ятники',
+            link: '/category/categoryName'
           },
           {
             icon: 'mdi-wall',
             title: 'Бруківка',
+            link: '/category/categoryName'
           },
           {
             icon: 'mdi-checkbox-multiple-blank',
             title: 'Кам’яні плити',
+            link: '/category/categoryName'
           },
         ],
       }

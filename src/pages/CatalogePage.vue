@@ -1,18 +1,18 @@
 <template>
   <div>
-    <CategoriesComponent />
+    <CategoryButtonsComponent />
   </div>
 </template>
 
 <script>
 
-import CategoriesComponent from './catalogePageComponents/CategoriesComponent.vue'
+import CategoryButtonsComponent from './catalogePageComponents/CategoryButtonsComponent.vue'
 
 export default {
   name: 'CatalogePage',
 
   components: {
-    CategoriesComponent
+    CategoryButtonsComponent
   }
 }
 </script>
