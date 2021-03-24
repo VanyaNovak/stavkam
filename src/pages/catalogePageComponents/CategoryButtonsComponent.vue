@@ -73,17 +73,17 @@ export default {
           {
             icon: 'mdi-grave-stone',
             title: 'Пам’ятники',
-            link: '/category/categoryName'
+            link: '/cataloge/categoryName'
           },
           {
             icon: 'mdi-wall',
             title: 'Бруківка',
-            link: '/category/categoryName'
+            link: '/cataloge/categoryName'
           },
           {
             icon: 'mdi-checkbox-multiple-blank',
             title: 'Кам’яні плити',
-            link: '/category/categoryName'
+            link: '/cataloge/categoryName'
           },
         ],
       }

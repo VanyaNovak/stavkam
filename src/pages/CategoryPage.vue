@@ -14,8 +14,11 @@
               <h2 class="display-3 font-weight-Light mb-3 white--text">Category Name</h2>
             </v-parallax>
         </v-container>
+
+    
+
         </section> 
-      </div>
+    </div>
 </template>
 
 <script>
