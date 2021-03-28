@@ -30,8 +30,6 @@
 </template>
 
 <script>
-import { component } from "vue/types/umd";
-
 export default {
     name: 'ItemList',
 
@@ -39,4 +37,5 @@ export default {
 
     }
 }
+
 </script>
