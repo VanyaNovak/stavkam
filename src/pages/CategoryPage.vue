@@ -13,9 +13,11 @@
             >
               <h2 class="display-3 font-weight-Light mb-3 white--text">Category Name</h2>
             </v-parallax>
-        </v-container>
 
-        <ItemList />
+          <ItemListComponent 
+            class="mt-5"
+          />
+        </v-container>
 
         </section> 
     </div>
@@ -23,13 +25,13 @@
 
 <script>
 
-import ItemList from './categoryPageComponents/ItemList';
+import ItemListComponent from './categoryPageComponents/ItemListComponent.vue';
 
 export default {
     name: 'CategoriesComponent',
 
     components: {
-      ItemList
+      ItemListComponent
     },
 }
 </script>

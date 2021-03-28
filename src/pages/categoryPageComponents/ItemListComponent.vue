@@ -11,6 +11,8 @@
         :lazy-src="`https://picsum.photos/10/6?image=${n * 5 + 10}`"
         aspect-ratio="1"
         class="grey lighten-2"
+        @click="$router.push('/cataloge/categoryName/itemName')"
+        id="mouse"
       >
         <template v-slot:placeholder>
           <v-row
@@ -29,13 +31,9 @@
   </v-row>
 </template>
 
-<script>
-export default {
-    name: 'ItemList',
-
-    components: {
-
-    }
+<style>
+#mouse {
+    cursor: pointer;
 }
 
-</script>
+</style>

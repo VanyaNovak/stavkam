@@ -1,5 +1,9 @@
 <template>
-   <div></div> 
+   <div>
+      <v-row>
+         
+      </v-row>
+   </div>
 </template>
 
 <script>
