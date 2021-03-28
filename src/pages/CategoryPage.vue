@@ -15,7 +15,7 @@
             </v-parallax>
         </v-container>
 
-    
+
 
         </section> 
     </div>
@@ -23,11 +23,13 @@
 
 <script>
 
+import ItemList from './categoryPageComponents/ItemList.vue'
 
 export default {
     name: 'CategoriesComponent',
 
     components: {
+      ItemList
       
     },
 }

@@ -25,6 +25,7 @@
             <v-btn 
             class="font-weight-light"
             x-large
+            @click="$router.push('/cataloge')"
             >
              Каталог
            </v-btn>
